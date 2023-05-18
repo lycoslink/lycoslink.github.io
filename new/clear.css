@@ -5,3 +5,11 @@
 		  a[href="https://www.profitsence.com"] {
 		display:none;
 		}	
+
+		img[src="https://www.headerbidding.ai/images/logo/LogoHBclosebutton.svg"] {
+		border: 0px solid #000000;
+		content:url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==");
+		}
+		  a[href="https://www.headerbidding.ai"] {
+		display:none;
+		}
