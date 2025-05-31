@@ -2,7 +2,7 @@ material-resume
 v1.2.1
 Update Date: March 10, 2022
 
-License - FREE
+License - FREE2
 
 License Terms
 -------------
