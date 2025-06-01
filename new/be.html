@@ -1,31 +1,31 @@
 <div id="youtube-player"></div>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-        
-        #youtube-player {
-            width: 560px;
-            height: 315px;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 1000;
-            border: none;
-            border-radius: 8px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-        }
-        
-        @media (max-width: 600px) {
-            #youtube-player {
-                width: 90vw;
-                height: calc(90vw * 9 / 16); /* Tỷ lệ 16:9 */
-            }
-        }
-    </style>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#youtube-player {
+    width: 560px;
+    height: 315px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+    #youtube-player {
+	width: 90vw;
+	height: calc(90vw * 9 / 16); 
+    }
+}
+</style>
 <script>
   const CONFIG = {
     videos: [
